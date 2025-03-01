@@ -1,0 +1,55 @@
+/* Navigation */
+header {
+    background: rgba(26, 26, 26, 0.6);
+    padding: 15px 40px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    transition: 0.3s ease;  
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:6vh;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 1rem;
+}
+
+.icons_resize_header {
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(279deg) brightness(103%) contrast(101%);
+    width: 40px;
+    padding: .5rem;
+}
+
+.logo {
+    font-size: 20px;
+    color: white;
+    font-weight: 1000;
+    letter-spacing: 2px;
+}
+
+.header_buttons {
+    transition: all ease .2s;
+}
+.header_buttons:hover {
+    font-size: 1.1rem;
+    transform: scale(1);
+        filter: drop-shadow(0 0 10px #ffffff);
+        color: #ff9b4a;
+  }
