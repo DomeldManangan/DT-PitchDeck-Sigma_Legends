@@ -24,8 +24,6 @@ body {
     overflow-x: hidden;
 }
 
-
-
 /*------------ Section 1 --------------*/
 .hero1 {
     display: flex;
@@ -149,6 +147,7 @@ body {
 
 .team {
     height: 100vh;
+    overflow: hidden;
 }
 
 .title {
