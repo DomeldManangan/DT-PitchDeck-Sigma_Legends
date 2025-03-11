@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Orbitron:wght@400..900&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anybody:ital,wght@0,100..900;1,100..900&family=Arimo:ital,wght@0,400..700;1,400..700&family=Expletus+Sans:ital,wght@0,400..700;1,400..700&family=M+PLUS+1+Code:wght@100..700&family=Orbitron:wght@400..900&family=Staatliches&display=swap');
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arimo;
+    max-width: 100%;
+}
+
+/* Fix Header Overlap */
+body {
+    padding-top: 80px; /* Adjust to push content below header */
+    background: linear-gradient(135deg, #121212, #1f1f1f);
+    color: white;
+}
+
+/* Contact Us Section - Glassmorphism Style */
+.contact-section {
+    max-width: 600px;
+    margin: 100px auto 50px;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.1); /* Glass effect */
+    backdrop-filter: blur(10px);
+    border-radius: 12px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    transition: 0.3s ease-in-out;
+}
+
+.contact-section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.3);
+}
+
+/* Contact Header */
+.contact-section h1 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    background: linear-gradient(90deg, #ff9b4a, #ff4a4a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: glow 1.5s infinite alternate;
+}
+
+/* Contact Description */
+.contact-section p {
+    font-family: 'Arimo', sans-serif;
+    font-size: 18px;
+    color: #ddd;
+    margin-bottom: 20px;
+}
+
+/* Form Input Fields */
+.input-group {
+    margin: 15px 0;
+    text-align: left;
+}
+
+.input-group label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.input-group input,
+.input-group textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    font-size: 16px;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    outline: none;
+    transition: 0.3s ease-in-out;
+}
+
+.input-group input:focus,
+.input-group textarea:focus {
+    border-color: #ff9b4a;
+    box-shadow: 0px 0px 8px rgba(255, 155, 74, 0.8);
+}
+
+/* Textarea */
+.input-group textarea {
+    height: 120px;
+    resize: none;
+}
+
+/* Submit Button - Neon Effect */
+button {
+    background: linear-gradient(90deg, #ff9b4a, #ff0000);
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 18px;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: 0.3s ease-in-out;
+    box-shadow: 0px 4px 12px rgba(255, 0, 0, 0.4);
+}
+
+button:hover {
+    background: linear-gradient(90deg, #ff0000, #ff9b4a);
+    box-shadow: 0px 6px 20px rgba(255, 0, 0, 0.7);
+    transform: scale(1.05);
+}
+
+/* Success Message */
+#formMessage {
+    font-size: 16px;
+    margin-top: 15px;
+    color: #00ff99;
+    font-weight: bold;
+}
+
+/* Neon Glow Animation */
+@keyframes glow {
+    0% {
+        text-shadow: 0px 0px 8px rgba(255, 0, 115, 0.6);
+    }
+    100% {
+        text-shadow: 0px 0px 16px rgba(255, 75, 155, 1);
+    }
+}
