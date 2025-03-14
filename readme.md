@@ -4,23 +4,23 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/zyx-0314/">
+  <a href="https://github.com/DomeldManangan/DT-PitchDeck-Sigma_Legends">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
+    <img src="./assets/img/Black and White Modern Personal Brand Logo (2).png" alt="NINOX" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Title</h3>
+  <h3 align="center">Tracking Climates Shifts Today</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
+  Real-time updates, insights, and analysis on El Niño’s impacts, highlighting the most affected areas to keep you informed and prepared.
 </div>
 
 <br />
 
 <!-- TODO: Change the zyx-0314 into your github username  -->
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-Template-Project)
+![](https://visit-counter.vercel.app/counter.png?page=DomeldManangan/DT-PitchDeck-Sigma_Legends)
 
 [![wakatime](https://wakatime.com/badge/user/018dd99a-4985-4f98-8216-6ca6fe2ce0f8/project/63501637-9a31-42f0-960d-4d0ab47977f8.svg)](https://wakatime.com/badge/user/018dd99a-4985-4f98-8216-6ca6fe2ce0f8/project/63501637-9a31-42f0-960d-4d0ab47977f8)
 
@@ -62,17 +62,18 @@
 Description of the project in details.
 
 Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
+- What is the project : A real-time climate monitoring and analysis system focused on tracking the impacts of El Niño. It provides live updates, insights, and risk assessments for affected regions.
+- Whats the purpose : To equip individuals, communities, and organizations with accurate, real-time information about El Niño’s effects, helping them prepare for and mitigate climate-related challenges.
 
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
-- MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
+- MultiPage Website
+- Hover transition
+- Discover
+- About Us
+- Blog
+- Contact Us
 
 ### Technology
 <!-- TODO: List of Technology Used -->
@@ -119,4 +120,12 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| Google | Get some idea | https://www.google.com/ |
+| YouTube | Get some idea| https://www.youtube.com/ |
+| W3schools | Get some idea | https://www.w3schools.com/ |
+| fonts google | Get some idea | https://fonts.google.com/ |
+| ChatGPT | Get some idea | https://chatgpt.com/ |
+| TikTok | Get some idea | https://www.tiktok.com/ |
+| Github | Get some idea | https://github.com/ |
+| Pinterest | Get some idea | https://www.pinterest.com/ |
+| Freepik | Get some idea | https://www.freepik.com/ |
