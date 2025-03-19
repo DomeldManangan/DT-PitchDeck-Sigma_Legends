@@ -2,9 +2,11 @@
 header {
     background: rgba(26, 26, 26, 0.6);
     padding: 15px 40px;
+    position: fixed;
     width: 100%;
     top: 0;
-    transition: 0.3s ease;
+    z-index: 1000;
+    transition: 0.3s ease;  
 }
 
 nav {
@@ -52,4 +54,3 @@ nav {
         filter: drop-shadow(0 0 10px #ffffff);
         color: #ff9b4a;
   }
-

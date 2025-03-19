@@ -1,23 +1,18 @@
 /* Footer Section */
+
 footer {
     display: flex;
     flex-direction: column;
-    position:absolute;
-    bottom: 2;
-    left: 0;
-    width: 100%;
-    z-index: 10; /* Ensure it stays above other elements */
+    width: 100vw;
 }
 
 
-/* Footer Color */
 .footer_color {
     background-color: #1a1919;
     padding: 2rem 0;
     width: 100%;
 }
 
-/* Footer Container */
 .footer_container {
     display: flex;
     flex-direction: column;
@@ -25,14 +20,16 @@ footer {
     justify-content: center;
     flex-wrap: wrap; /* Allows wrapping on small screens */
     min-height: 200px; /* Prevents overlap */
-    padding: 1rem;
+    padding: 1rem; /* Adds spacing */
+    position: relative;
+    z-index: 2; /* Keeps footer above other elements */
 }
 
 /* Social Icons */
 .icons_container {
     display: flex;
     flex-wrap: wrap;
-    gap: 1.5rem;
+    gap: 1.5rem; /* Ensures proper spacing */
     justify-content: center;
     align-items: center;
 }
@@ -43,8 +40,8 @@ footer {
 }
 
 .icons_resize:hover {
-    transform: scale(1.2);
-    filter: brightness(1.5);
+    transform: scale(1.2); /* Slight zoom effect */
+    filter: brightness(1.5); /* Brightens the icon */
 }
 
 /* Tooltip Styling */
@@ -53,9 +50,9 @@ footer {
 }
 
 .icon_link::after {
-    content: attr(data-name);
+    content: attr(data-name); /* Display name dynamically */
     position: absolute;
-    bottom: -30px;
+    bottom: -30px; /* Position below the icon */
     left: 50%;
     transform: translateX(-50%);
     background-color: rgba(0, 0, 0, 0.8);
@@ -114,11 +111,4 @@ footer {
     .icons_resize {
         width: 35px; /* Slightly smaller icons on small screens */
     }
-}
-
-/* Prevent Content Overlap */
-body {
-    margin: 0;
-    padding-bottom: 200px; /* Prevents content from being hidden under footer */
-    box-sizing: border-box;
 }
