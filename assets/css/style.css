@@ -170,3 +170,124 @@ body {
     padding-bottom: 2rem;
     padding-top: 1rem;
 }
+
+
+/* Climate Impact Section */
+.climate-impact {
+    padding: 100px 200px;
+    text-align: center;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(180deg, rgb(0, 0, 0), rgb(46, 17, 5));
+}
+
+.climate-impact h2 {
+    font-size: 4rem;
+    font-family: 'Expletus Sans', sans-serif;
+    color: #fff;
+}
+
+.climate-impact p {
+    font-size: 1.2rem;
+    color: #ccc;
+    margin-top: 10px;
+}
+
+/* Impact Cards Container */
+.impact-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 30px;
+}
+
+/* Card Styling */
+.impact-cards .card {
+    background-color: #1a1f1e;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    transition: transform 0.4s ease-in-out, box-shadow 0.4s ease-in-out;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+/* Cool Hover Effect */
+.impact-cards .card:hover {
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 0px 10px 20px rgba(255, 140, 66, 0.3);
+}
+
+/* Hover Glow Effect */
+.impact-cards .card::before {
+    content: "";
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, rgba(255, 140, 66, 0.2) 20%, transparent 80%);
+    opacity: 0;
+    transition: opacity 0.4s ease-in-out;
+}
+
+.impact-cards .card:hover::before {
+    opacity: 1;
+}
+
+/* Card Content */
+.impact-cards .card h3 {
+    font-size: 24px;
+    color: #ff8c42;
+    transition: color 0.3s ease-in-out;
+}
+
+.impact-cards .card:hover h3 {
+    color: #ffae66;
+}
+
+/* Card Text */
+.impact-cards .card p {
+    font-size: 1rem;
+    color: #ddd;
+    transition: color 0.3s ease-in-out;
+}
+
+.impact-cards .card:hover p {
+    color: #fff;
+}
+
+/* Card Image Styling */
+.impact-cards img {
+    width: 100%;
+    max-width: 150px; /* Set a max width */
+    height: 150px; /* Set a fixed height */
+    object-fit: cover; /* Ensures images are not stretched */
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Image Hover Effect */
+.impact-cards .card:hover img {
+    transform: scale(1.1);
+}
+
+/* Responsive Layout */
+@media (max-width: 900px) {
+    .impact-cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .impact-cards {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .climate-impact {
+        padding: 50px 20px;
+        height: auto;
+    }
+}
+
